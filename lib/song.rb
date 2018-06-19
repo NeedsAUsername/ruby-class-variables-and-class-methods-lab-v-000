@@ -8,6 +8,7 @@ class Song
         @@count += 1
         @@genres << genre
         @@artists << artist
+
     end
 
     @@count = 0
@@ -29,7 +30,8 @@ class Song
     end
 
     def self.genre_count
-        @@genre_counter
+        genre_key = @@genres.key
+        @@genres.each do
     end
 
     def self.artist_count
