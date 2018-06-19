@@ -8,6 +8,7 @@ class Song
         @@count += 1
         @@genres << genre
         @@artists << artist
+        @@artist_counter.include?(artist) ? @@artist_counter[artist] += 1 : @@artist[artist] = 1
     end
 
     @@count = 0
