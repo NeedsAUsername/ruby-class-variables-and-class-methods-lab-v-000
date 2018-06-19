@@ -32,9 +32,9 @@ class Song
         @@genre_counter
     end
 
-    def self.artist_counter
+    def self.artist_count
         @@artist_counter
-    end 
+    end
 
 
 end
