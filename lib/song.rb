@@ -34,6 +34,7 @@ class Song
 
     def self.artist_counter
         @@artist_counter
+    end 
 
 
 end
